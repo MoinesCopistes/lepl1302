@@ -1,0 +1,10 @@
+[book]
+authors = ["Théo Daron"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "LEPL1302 - Notes"
+
+
+[preprocessor.katex]
+after = ["links"]
