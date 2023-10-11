@@ -35,22 +35,63 @@ Il est donc possible d'exprimer
 
 $$U_c = Q + W$$
 
+(Un $Q$ ou un $W$ **positif** signifient que le système **recoit** de l'énergie)
+
 ainsi que
 
 $$\Delta U = \Delta Q + \Delta W$$
+
+Il faut donc bien comprendre qu'a chaque transformation d'un système, l'énergie ne peut varier qu'en fonction de **chaleur** (on réchauffe/refroidit) ou bien de **travail**.
 
 
 Et voila ! Nous sommes arrivés à la première loi de la thermodynamique. 
 
 
-Il faut donc bien comprendre qu'a chaque transformation d'un système, l'énergie ne peut varier qu'en fonction de **chaleur** ou bien de **travail**.
 
-En parlant de transformations, il est également important de bien comprendre les différents types de transformations possibles:
+Il reste une loi importante a connaitre, la première loi de Joules:
 
-## Transformation isotherme
-## Transformation isobare
-## Transformation isochore
-## Transformation adiabatique
+```admonish abstract title="Definition"
+Le $\Delta U$ d'un gaz parfait ne dépend QUE de la température de ce gaz. 
+
+$\Delta U = C_v \Delta T$
+
+$\Delta U = C_p \Delta T$
+
+$C_v$ et $C_p$ étant les capacités calorifiques du gaz respectivement a volume constant/pression constante.
+
+
+Donc, si un travail provoque une variation de l'énergie (U) du système, alors sa température aura changé également.
+```
+
+Il est possible de visualiser cette loi par le fait que si l'on comprime un gaz, sa paroi sera en mouvement (le temps de la compression), 
+et accélèrera le mouvement des particules qui la touchent (cf: une batte de baseball en mouvement accélère la balle qui rebondit dessus).
+Et comme la température correspond (en gros) a la vitesse des particules, un travail donné au système augmentera la température de celui ci.
+
+## Les transformations
+
+Nous parlions de transformations, mais il est également important de bien comprendre les différents types de transformations possibles:
+
+### Transformation isotherme
+
+Une transformation **isotherme** est une transformation durant laquelle la température du système est **constante**.
+
+```admonish warning
+
+Cela ne veut PAS dire qu'il n'y a pas d'échange de chaleur avec l'extérieur. Cela signifie juste qu'entre le début et la fin de la transformation la température
+nette du système ne change pas.
+
+```
+
+Étant donné que $\Delta U = Q + W = C_{v} \Delta T$ (ou $C_p$ en fonction), si la température est constante, $\Delta T = 0$, nous pouvons donc concure que :
+
+$$ \Delta U = 0 \Longleftrightarrow Q = -W $$
+
+En effet, l'énergie gagnée par le système en travail devra être "éliminée" par une perte de chaleur du système.
+
+
+### Transformation isobare
+### Transformation isochore
+### Transformation adiabatique
 
 
 
