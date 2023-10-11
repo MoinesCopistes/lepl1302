@@ -2,13 +2,13 @@
 
 @import 'variables.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-/*.katex .mathnormal, .mtight, .mord {
-    font-family: "Lato" !important;
-    font-style: normal !important;
-    font-weight: bold;
-}*/
+.katex .mathnormal, .mtight, .mord {
+/*    font-family: "Inter" !important;
+    font-style: normal !important;*/
+    font-size: 2.5rem;
+}
 
 
 :root {
@@ -40,7 +40,7 @@ code {
 /* make long words/inline code not x overflow */
 main {
     overflow-wrap: break-word;
-    font-family: Lato
+    font-family: Inter;
 }
 
 /* make wide tables scroll if they overflow */
