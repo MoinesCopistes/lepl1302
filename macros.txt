@@ -1,0 +1,4 @@
+\cb:\color{16a085}
+\cr:\color{e74c3c}
+\co:\color{e67e22}
+\cg:\color{27ae60}

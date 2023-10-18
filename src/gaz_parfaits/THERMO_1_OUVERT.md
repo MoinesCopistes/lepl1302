@@ -1,0 +1,1 @@
+# Premier principe dans les systèmes ouverts

@@ -24,6 +24,16 @@ Cette relation décrit un lien entre la **pression** (p) d'un gaz, son **volume*
 
 Le produit de la pression et du volume d'un gaz est égal au nombre de mol contenues dans le gaz, multiplié par une constante R (**8.314**) et par la température en Kelvin.
 
+```admonish warning
+
+Attention ! Dans le cours, on utilisera égalment la forme 
+
+$$pV = mR^*T$$ 
+
+avec $R^*$ valant $\frac{R}{M}$ avec $M$ la masse molaire du gaz. (et $m\frac{R}{M} = \frac{m}{M}R =  nR$)
+```
+
+
 
 Cette simple relation permet de résoudre déjà quelques questions, dont voici quelques examples:
 
